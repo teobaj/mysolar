@@ -1,0 +1,32 @@
+:root{
+  --primary-color: "#478559";
+  --secundary-color: "#161748";
+  --pink-highlight-color: "#f95d9b";
+  --bluewater-color: "#39a0ca";
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  color: var(--primary-color);
+  
+}
+body::-webkit-scrollbar{
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track{
+  background-color: azure;
+}
+body::-webkit-scrollbar-thumb{
+  background: linear-gradient(180deg, rgba(29,140,248,1) 0%, rgba(63,50,244,1) 100%)
+
+}
